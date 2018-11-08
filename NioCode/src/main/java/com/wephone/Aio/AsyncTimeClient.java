@@ -51,7 +51,7 @@ public class AsyncTimeClient implements Runnable, CompletionHandler<Void, AsyncT
             @Override
             public void completed(Integer result, ByteBuffer attachment) {
                 if (attachment.hasRemaining()){
-                    client.write(writeBuffer, writeBuffer,this);
+                    client.write(attachment, attachment,this);
                 }else {
                     ByteBuffer readBuffer=ByteBuffer.allocate(1024);
                     client.read(readBuffer, readBuffer, new CompletionHandler<Integer, ByteBuffer>() {

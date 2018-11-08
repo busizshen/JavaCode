@@ -11,7 +11,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 public  class ChatServer extends ChannelInitializer<SocketChannel> {
 
-    public static Map<String,ChannelHandlerContext> channelContextMap=new ConcurrentHashMap<>();
+    public static Map<String,ChannelHandlerContext> channelContextMap=new ConcurrentHashMap();
 
     @Override
     protected void initChannel(SocketChannel socketChannel) throws Exception {
