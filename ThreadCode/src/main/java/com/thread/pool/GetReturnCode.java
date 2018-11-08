@@ -37,6 +37,7 @@ class GetReturnCodeThread implements Callable<String> {
     }
     @Override
     public String call() throws Exception {
+        System.out.println(code+"执行");
         return code+":线程返回";
     }
 

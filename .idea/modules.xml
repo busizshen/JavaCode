@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaCode.iml" filepath="$PROJECT_DIR$/JavaCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NioCode/NioCode.iml" filepath="$PROJECT_DIR$/NioCode/NioCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThreadCode/ThreadCode.iml" filepath="$PROJECT_DIR$/ThreadCode/ThreadCode.iml" />
     </modules>
   </component>
