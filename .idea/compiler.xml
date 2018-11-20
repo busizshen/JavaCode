@@ -6,13 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="FunctionCode" />
         <module name="NioCode" />
+        <module name="SortCode" />
         <module name="ThreadCode" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="JavaCode" target="1.5" />
-      <module name="NioCode" target="1.7" />
+      <module name="FunctionCode" target="1.8" />
+      <module name="JavaCode" target="1.8" />
+      <module name="NioCode" target="1.8" />
+      <module name="SortCode" target="1.8" />
       <module name="ThreadCode" target="1.8" />
     </bytecodeTargetLevel>
   </component>
